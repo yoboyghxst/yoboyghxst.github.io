@@ -1,0 +1,36 @@
+*{
+    font-family: sans-serif;
+}
+
+#title {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#lorem{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#button{
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 40px;
+    background-color: pink;
+    color: white;
+    -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#button:hover{
+    background-color: purple;
+}
+
+#button:active{
+    transform: rotate(360deg);
+}
